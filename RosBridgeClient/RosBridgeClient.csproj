@@ -98,6 +98,11 @@
     <Compile Include="Messages\Standard\Float64.cs" />
     <Compile Include="Messages\Standard\Int16.cs" />
     <Compile Include="Messages\Standard\Int32.cs" />
+    <Compile Include="Messages\Roboy\DangerNotification.cs" />
+    <Compile Include="Messages\Roboy\DebugNotification.cs" />
+    <Compile Include="Messages\Roboy\ErrorNotification.cs" />
+    <Compile Include="Messages\Roboy\InfoNotification.cs" />
+    <Compile Include="Messages\Roboy\WarningNotification.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
