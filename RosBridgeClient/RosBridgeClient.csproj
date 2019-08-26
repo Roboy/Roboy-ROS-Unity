@@ -103,6 +103,7 @@
     <Compile Include="Messages\Roboy\ErrorNotification.cs" />
     <Compile Include="Messages\Roboy\InfoNotification.cs" />
     <Compile Include="Messages\Roboy\WarningNotification.cs" />
+    <Compile Include="Messages\Roboy\Pose.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
