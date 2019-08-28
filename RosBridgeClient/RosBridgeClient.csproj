@@ -104,6 +104,8 @@
     <Compile Include="Messages\Roboy\InfoNotification.cs" />
     <Compile Include="Messages\Roboy\WarningNotification.cs" />
     <Compile Include="Messages\Roboy\Pose.cs" />
+    <Compile Include="Messages\Roboy\InterfaceStatus.cs" />
+    <Compile Include="Messages\Roboy\FeedbackDemo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
