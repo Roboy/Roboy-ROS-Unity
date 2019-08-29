@@ -14,5 +14,10 @@ namespace RosSharp.RosBridgeClient.Messages.Roboy
         {
             status = new Int32();
         }
+
+        public InterfaceStatus(int status)
+        {
+            this.status = status;
+        }
     }
 }

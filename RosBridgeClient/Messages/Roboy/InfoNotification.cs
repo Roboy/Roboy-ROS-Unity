@@ -22,5 +22,16 @@ namespace RosSharp.RosBridgeClient.Messages.Roboy
             extra = "";
             validity_duration = new Int32();
         }
+
+        public InfoNotification(int code, string @object, string msg, string extra, int validity_duration)
+        {
+            this.code = code;
+            this.@object = @object;
+            this.msg = msg;
+            this.extra = extra;
+            this.validity_duration = validity_duration;
+        }
     }
+
+
 }

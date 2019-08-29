@@ -19,5 +19,12 @@ namespace RosSharp.RosBridgeClient.Messages.Roboy
             position = new Point();
             orientation = new Quaternion();
         }
+
+        public Pose(ushort id, Point position, Quaternion orientation)
+        {
+            this.id = id;
+            this.position = position;
+            this.orientation = orientation;
+        }
     }
 }

@@ -28,5 +28,17 @@ namespace RosSharp.RosBridgeClient.Messages.Roboy
             current = new Int16[0];
             angle = new Int32[0];
         }
+
+        public MotorStatus(ushort id, bool power_sense, int[] pwm_ref, int[] position, int[] velocity, int[] displacement, short[] current, int[] angle)
+        {
+            this.id = id;
+            this.power_sense = power_sense;
+            this.pwm_ref = pwm_ref;
+            this.position = position;
+            this.velocity = velocity;
+            this.displacement = displacement;
+            this.current = current;
+            this.angle = angle;
+        }
     }
 }
