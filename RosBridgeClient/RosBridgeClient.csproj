@@ -106,6 +106,7 @@
     <Compile Include="Messages\Roboy\Pose.cs" />
     <Compile Include="Messages\Roboy\InterfaceStatus.cs" />
     <Compile Include="Messages\Roboy\FeedbackDemo.cs" />
+    <Compile Include="Services\Roboy\VRPuppetStateTransmission.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -113,6 +114,7 @@
   <ItemGroup />
   <ItemGroup>
     <Folder Include="Messages\Roboy\" />
+    <Folder Include="Services\Roboy\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
