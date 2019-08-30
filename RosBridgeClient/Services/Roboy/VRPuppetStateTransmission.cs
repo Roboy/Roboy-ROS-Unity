@@ -5,7 +5,7 @@ namespace RosSharp.RosBridgeClient.Services.Roboy
     public class VRPuppetStateTransmissionRequest : Message
     {
         [JsonIgnore]
-        public const string RosMessageName = "vr_puppets/state_transmission";
+        public const string RosMessageName = "roboy_middleware_msgs/VRPuppetStateTransmission";
 
         public bool data;
 
@@ -18,7 +18,7 @@ namespace RosSharp.RosBridgeClient.Services.Roboy
     public class VRPuppetStateTransmissionResponse : Message
     {
         [JsonIgnore]
-        public const string RosMessageName = "vr_puppets/state_transmission";
+        public const string RosMessageName = "roboy_middleware_msgs/VRPuppetStateTransmission";
         public bool success;
         public string message;
         public VRPuppetStateTransmissionResponse(bool success, string message)
