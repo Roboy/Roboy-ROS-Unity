@@ -5,7 +5,7 @@ namespace RosSharp.RosBridgeClient.Messages.Roboy
 {
     public class InterfaceMessage : Message
     {
-        [JsonIgnore] public const string RosMessageName = "roboy_middleware_msgs/InfoNotification";
+        [JsonIgnore] public const string RosMessageName = "roboy_middleware_msgs/InterfaceMessage";
 
         public Int32 id;
         public byte[] data;
@@ -13,7 +13,7 @@ namespace RosSharp.RosBridgeClient.Messages.Roboy
         public InterfaceMessage()
         {
             id = new Int32();
-            data = new byte[1];
+            data = new byte[0];
         }
 
         public InterfaceMessage(int id, byte[] data)
